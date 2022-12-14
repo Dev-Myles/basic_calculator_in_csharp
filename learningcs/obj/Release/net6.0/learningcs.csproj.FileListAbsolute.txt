@@ -1,0 +1,15 @@
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\bin\Release\net6.0\learningcs.exe
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\bin\Release\net6.0\learningcs.deps.json
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\bin\Release\net6.0\learningcs.runtimeconfig.json
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\bin\Release\net6.0\learningcs.dll
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\bin\Release\net6.0\learningcs.pdb
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\learningcs.csproj.AssemblyReference.cache
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\learningcs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\learningcs.AssemblyInfoInputs.cache
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\learningcs.AssemblyInfo.cs
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\learningcs.csproj.CoreCompileInputs.cache
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\learningcs.dll
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\refint\learningcs.dll
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\learningcs.pdb
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\learningcs.genruntimeconfig.cache
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\ref\learningcs.dll
