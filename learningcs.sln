@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learningcs", "learningcs\learningcs.csproj", "{D919CF58-B46B-45B8-A38B-0D59AF1DFB6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "basic_calculator", "learningcs\basic_calculator.csproj", "{D919CF58-B46B-45B8-A38B-0D59AF1DFB6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

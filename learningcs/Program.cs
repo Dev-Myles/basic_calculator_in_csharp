@@ -8,7 +8,11 @@
         Console.WriteLine("Basic Calculator - Exit with CTRL + C");
         while (true)
         {
-            Functions.Math.GetOperator();
+            Functions.Math.Calculate(
+                Functions.Math.GetOperator(),
+                Functions.Math.GetFirstNumber(),
+                Functions.Math.GetSecondNumber()
+                );
 
         }
 
@@ -19,8 +23,6 @@
 
 namespace Functions
 {
-    using System.Linq;
-    using System.Security.Cryptography.X509Certificates;
 
     public class Math
     {
@@ -34,74 +36,73 @@ namespace Functions
         }
 
     
-        public static void GetOperator()
+        public static string GetOperator()
         {
             Console.ForegroundColor= ConsoleColor.DarkBlue;
             Console.WriteLine("Please enter divide, multiply, add, or subtract");
             Console.ForegroundColor= ConsoleColor.White;
-           string? input = Console.ReadLine();
-
-            ArgumentNullException.ThrowIfNull(input);
-
-            if (!Enum.IsDefined(typeof(Operators), input))
+            string? input;
+            do
             {
-                Console.ForegroundColor= ConsoleColor.DarkRed;
-                Console.WriteLine("Please enter a valid string");
-               
-                return;
-            }
-            else
-            {
-                Calculate(input);
-                
-            }
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Console.WriteLine("Please enter a valid operator");
+                Console.ForegroundColor = ConsoleColor.White;
+                input = Console.ReadLine();
+
+            } while (!Enum.IsDefined(typeof(Operators), input) | input == null);
+
+            return input;
 
         }
-        public static void Calculate(string op)
+
+        public static float GetSecondNumber()
         {
-            bool end = true;
-            int x;
-            int y;
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("Choose two numbers");
-            while (end)
+            Console.WriteLine("Second number:");
+            string? x;
+
+            do
             {
-                string z = Console.ReadLine();
-                if (!int.TryParse(z, out x))
-                {
-                    Console.ForegroundColor = ConsoleColor.DarkRed;
-                    Console.WriteLine("Please enter a valid integer");
-                    break;
-                }
-                else
-                {
-                    x = Convert.ToInt32(z);
-                }
+                Console.WriteLine("Please enter a valid integer");
+                x = Console.ReadLine();
+            } while (float.TryParse(x, out _) != true);
 
-                string a = Console.ReadLine();
-                if (!int.TryParse(a, out y))
-                {
-                    Console.ForegroundColor = ConsoleColor.DarkRed;
-                    Console.WriteLine("Please enter a valid integer");
-                    break;
-                }
-                else
-                {
-                    y = Convert.ToInt32(a);
-                }
+                   return float.Parse(x);
+        }
 
+        public static float GetFirstNumber()
+        {
+            Console.WriteLine("First number:");
+            string? x;
+            do
+            {
+                Console.WriteLine("Please enter a valid integer");
+                x = Console.ReadLine();
+            } while (float.TryParse(x, out _) != true);
 
+            return float.Parse(x);
+        }
 
-
-
-
+        public static void Calculate(string op, float x, float y)
+        {
                 switch (op)
                 {
                     case "divide":
                         {
-                            Console.ForegroundColor = ConsoleColor.Magenta;
-                            Console.WriteLine($"{x / y}");
+                            if(y == 0)
+                        {
+                            Console.ForegroundColor= ConsoleColor.DarkRed;
+                            Console.WriteLine("You cannot divide by zero, please enter a valid number");
                             return;
+                        }
+                        else
+                        {
+                            Console.ForegroundColor = ConsoleColor.Magenta;
+                       ;  
+                            Console.WriteLine($"Anwser: {x / y}");
+                            return;
+                        }
+
+                           
 
                         }
                     case "add":
@@ -137,4 +138,3 @@ namespace Functions
     }
 
   
-}

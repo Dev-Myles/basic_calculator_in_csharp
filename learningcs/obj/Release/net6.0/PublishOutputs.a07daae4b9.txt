@@ -1,0 +1,5 @@
+C:\Users\Dev_Myles\Desktop\githubrepos\csharp_calc\basic_calculator.exe
+C:\Users\Dev_Myles\Desktop\githubrepos\csharp_calc\basic_calculator.dll
+C:\Users\Dev_Myles\Desktop\githubrepos\csharp_calc\basic_calculator.deps.json
+C:\Users\Dev_Myles\Desktop\githubrepos\csharp_calc\basic_calculator.runtimeconfig.json
+C:\Users\Dev_Myles\Desktop\githubrepos\csharp_calc\basic_calculator.pdb

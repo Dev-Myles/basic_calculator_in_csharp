@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dev_Myles\\Desktop\\githubrepos\\learningcs\\learningcs\\learningcs.csproj",
-      "projectName": "learningcs",
-      "projectPath": "C:\\Users\\Dev_Myles\\Desktop\\githubrepos\\learningcs\\learningcs\\learningcs.csproj",
+      "projectUniqueName": "C:\\Users\\Dev_Myles\\Desktop\\githubrepos\\learningcs\\learningcs\\basic_calculator.csproj",
+      "projectName": "basic_calculator",
+      "projectPath": "C:\\Users\\Dev_Myles\\Desktop\\githubrepos\\learningcs\\learningcs\\basic_calculator.csproj",
       "packagesPath": "C:\\Users\\Dev_Myles\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Dev_Myles\\Desktop\\githubrepos\\learningcs\\learningcs\\obj\\",
       "projectStyle": "PackageReference",

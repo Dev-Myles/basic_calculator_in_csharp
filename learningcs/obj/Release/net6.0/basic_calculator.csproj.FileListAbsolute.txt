@@ -1,0 +1,15 @@
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\bin\Release\net6.0\basic_calculator.exe
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\bin\Release\net6.0\basic_calculator.deps.json
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\bin\Release\net6.0\basic_calculator.runtimeconfig.json
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\bin\Release\net6.0\basic_calculator.dll
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\bin\Release\net6.0\basic_calculator.pdb
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\basic_calculator.csproj.AssemblyReference.cache
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\basic_calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\basic_calculator.AssemblyInfoInputs.cache
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\basic_calculator.AssemblyInfo.cs
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\basic_calculator.csproj.CoreCompileInputs.cache
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\basic_calculator.dll
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\refint\basic_calculator.dll
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\basic_calculator.pdb
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\basic_calculator.genruntimeconfig.cache
+C:\Users\Dev_Myles\Desktop\githubrepos\learningcs\learningcs\obj\Release\net6.0\ref\basic_calculator.dll
